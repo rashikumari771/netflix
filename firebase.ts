@@ -8,8 +8,6 @@ import { getAuth } from 'firebase/auth'
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-// Import the functions you need from the SDKs you need
-
 const firebaseConfig = {
   apiKey: "AIzaSyCWOqvm8hmI4NjGX8Lv8J_BWFZiMc2Pj6A",
   authDomain: "netflix-clone-bb3a4.firebaseapp.com",
@@ -18,7 +16,6 @@ const firebaseConfig = {
   messagingSenderId: "397508304153",
   appId: "1:397508304153:web:ab8fe2c43b76ee6e917988"
 };
-
 // Initialize Firebase
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp()
 const db = getFirestore()
